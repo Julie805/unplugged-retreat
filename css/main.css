@@ -98,18 +98,57 @@ footer {
   flex-flow: row wrap;
 }
 
+/* Header Area */
+
+header {
+  padding: 15px 0;
+}
+
 header .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
+
+.header-divider {
+  width: 100%;
+  height: 1px;
+  margin: 10px 0 20px 0;
+  }
 
 header nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+/* Footer Area */
+
+footer {
+  flex-direction: column;
+}
+
+footer .p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+footer .contact {
+  margin-bottom: 50px;
 }
 
 footer .social-icons {
@@ -118,11 +157,18 @@ footer .social-icons {
   align-items: center;
 }
 
-footer .social p {
+footer .social-icons p{
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+
+
+footer .copyright {
+  margin: 20px 0;
+}
+
 
 
 
@@ -134,53 +180,66 @@ footer .social p {
 
 /* Hero Area */
 
-   .hero-area {
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
-    background-color:peachpuff;
-   }
+.hero-area {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
 
 /* Aside */
 
-   .aside {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: powderblue;
-    flex-flow: row wrap;
-   }
+.aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
-   }
+/* Features */
 
- /* Features */
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
 
-   .features {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightpink;
-    
-   }
 
-   .features .features-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgoldenrodyellow;
-    flex-flow: row wrap;
-   }
+.features h2 {
+  margin-bottom: 60px;
+}
+
+.features article {
+  width: 63%;
+  margin: 30px 0;
+}
+
+.features .features-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.features p {
+  margin: 0;
+}
 
  /* Reviews */
 
    .reviews {
     display: flex;
     justify-content: center;
-    background-color: lightgreen;
     flex-flow: row wrap;
    }
 
-
+   .reviews h2 {
+    margin-bottom: 40px;
+  }
+  
+   .reviews h3 {
+    width: 55%;
+    margin: 20px 0;
+   }
 
 /* ===========================
    Mobile About-Page Styles 
@@ -200,7 +259,9 @@ footer .social p {
     flex-flow: row wrap;
    }
 
-
+   .contact-content p {
+    margin: 0;
+   }
 
 /* ===========================
    Mobile FAQ-Page Styles 
@@ -210,7 +271,7 @@ footer .social p {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
    }
 
    .faq .content-wrapper {
@@ -218,10 +279,17 @@ footer .social p {
     justify-content: center;
     align-items: center;
     background-color: lightgreen;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    margin: 50px 0 0 0;
    }
 
-
+   .faq h2 {
+    margin-bottom: 40px;
+  }
+  
+  .faq-content {
+    margin-bottom: 50px;
+  }
 
 /* ==========================================================================
    Helper classes
