@@ -384,15 +384,17 @@ aside {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-  /* Tablet styles Here */ 
+  /******** Tablet styles Here ********/ 
 
   /* General styles */ 
+
   .content-wrapper {
     max-width: 640px;
     margin: 100px 0; 
   }
 
    /* Header */ 
+
   header {
     justify-content: space-around;
     padding: 33px 0;
@@ -420,6 +422,7 @@ aside {
 /* Hero Area */
 
 /* Aside */
+
 aside .content-wrapper {
   margin: 50px 0;
   display: flex;
@@ -448,20 +451,20 @@ aside .content-wrapper .form {
   width: 50%;
 }
 
-/* Reviews - this section doesn't match with html??*/
+/* Reviews - check against master html??*/
 
 .reviews article {
   display: flex;
   justify-content: space-between;
 }
 
+
 .reviews article div {
     width: 49%;        
 }
 
-
-
 /* Footer */
+
 footer .content-wrapper {
   width: 65%;
   margin: 100px 0;
@@ -534,8 +537,62 @@ footer .copyright {
 
 
 @media only screen and (min-width: 1200px) {
-  /* Desktop styles Here */
- 
+  /********** Desktop styles Here ************/
+
+  .content-wrapper {
+    max-width: 960px;
+}
+
+/* Header */
+/* Hero Area */
+
+.hero-area h1 {
+  width: 60%;
+}
+
+/* Aside */
+
+aside .content-wrapper {
+  justify-content: space-around;
+
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {        
+    width: 30%;         
+}
+
+/* Features */
+
+.features article {
+  flex-basis: 33%;
+}
+
+.features h2 {
+  width: 90%;
+
+}
+
+ /* Reviews */ 
+ .reviews article div {
+  width: 42%;
+}
+
+/* ==========================================================================
+   About Page
+   ========================================================================== */
+   .mission h2,
+   .contact-section .content-wrapper h2 {
+       width: 95%;
+   }
+
+/* ==========================================================================
+  FAQ Page
+  ========================================================================== */
+   .faq h2 {
+       width: 100%;
+   }
+
 }
 
 /* ==========================================================================
@@ -612,4 +669,4 @@ footer .copyright {
     page-break-after: avoid;
   }
 }
-
+}
