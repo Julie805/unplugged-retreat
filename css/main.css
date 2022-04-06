@@ -391,6 +391,23 @@ Mobile About-Page Styles
   margin: 0;
   }
 
+
+  .map figure {
+    width: 100%;
+    height: 0;
+    padding-bottom: 125%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  map iframe {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+  }
+
 /* ===========================
   Mobile FAQ-Page Styles 
   =========================== */ 
@@ -573,7 +590,6 @@ aside .content-wrapper .form {
 
 /* Features */
 
-
 .features article {
   display: flex;
   justify-content: center;
@@ -645,22 +661,9 @@ footer .copyright {
     }
 
     .map figure {
-      width: 100%;
-      height: 0;
-      padding-bottom: 125%;
-      overflow: hidden;
-      position: relative;
+      padding-bottom: 38%;
     }
 
-    map iframe {
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      position: abosolute;
-
-
-    }
  
     .contact-section .content-wrapper h2 {
         width: 80%
@@ -743,6 +746,9 @@ aside .content-wrapper .form {
    .contact-section .content-wrapper h2 {
        width: 95%;
    }
+
+   .map figure {
+    padding-bottom: 38%;
 
 /* ==========================================================================
   FAQ Page
