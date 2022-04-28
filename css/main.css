@@ -448,18 +448,15 @@ Mobile About-Page Styles
 
   .faq .content-wrapper {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   margin: 50px 0 0 0;
- 
-  }
+ }
 
   .faq h2 {
   margin-bottom: 40px;
-  line-height: 1;
-  
-  
+  line-height: 1;  
+  font-size: 1.875rem;
 }
 
 .faq-content {
@@ -468,7 +465,13 @@ Mobile About-Page Styles
 
 .faq-content h4 {
   line-height: 1.333;
+  margin-top: 0;
+  margin-bottom: 15;
+
 }
+
+.faq-content p {
+  margin-bottom: 0;
 
 /* ==========================================================================
    Helper classes
@@ -722,7 +725,6 @@ footer .content-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 footer .contact {
@@ -752,17 +754,26 @@ footer .copyright {
 }
 
 .faq-content {
-  flex-basis: 50%;
+  flex-basis: 45%;
 }
 
 .faq h2 {
   width: 100%;
+  font-size: 20rem;
+  color: red;
 }
 
 .faq-footer h4 {
   font-size: 24px;
   margin-bottom: 45px;
+
 }
+
+.faq .content-wrapper {
+  justify-content: space-between;
+}
+
+
 
 /* ==========================================================================
    About Page
@@ -805,23 +816,8 @@ footer .copyright {
     font-size: 36px;
   
   }
-  
+} 
 
-/* ==========================================================================
-   FAQ Page
-   ========================================================================== */
-
-.faq .content-wrapper {
-  justify-content: space-between;
-}
-
-.faq-content {
-    flex-basis: 45%;
-}
-
-.faq h2 {
-    width: 100%;
-}
 
 
 @media only screen and (min-width: 1200px) {
@@ -929,7 +925,7 @@ aside .content-wrapper .form {
    .faq h2 {
        width: 100%;
    }
-
+  }
 
 
 /* ==========================================================================
